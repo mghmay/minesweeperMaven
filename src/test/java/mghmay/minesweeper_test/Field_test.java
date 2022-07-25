@@ -52,6 +52,7 @@ public class Field_test {
         double myFieldDifficulty = myField.getDifficulty();
         assertEquals(difficulty, myFieldDifficulty, "The difficulty of the field does not equal the input");
     }
+    // hello blah blah blah
 
     @Test
     public void generateField_test() {
