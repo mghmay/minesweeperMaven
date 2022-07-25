@@ -39,28 +39,6 @@ public class Field_test {
         assertEquals(difficulty, myFieldDifficulty, "The difficulty of the field does not equal the input");
     }
 
-    @Test
-    public void getHiddenField_test() {
-        double difficulty = 5;
-        double myFieldDifficulty = myField.getDifficulty();
-        assertEquals(difficulty, myFieldDifficulty, "The difficulty of the field does not equal the input");
-    }
-
-    @Test
-    public void getVisibleField_test() {
-        double difficulty = 5;
-        double myFieldDifficulty = myField.getDifficulty();
-        assertEquals(difficulty, myFieldDifficulty, "The difficulty of the field does not equal the input");
-    }
-    // hello blah blah blah blah
-
-    @Test
-    public void generateField_test() {
-        double difficulty = 5;
-        int[][] myFieldDifficulty = myField.generateVisibleField();
-
-        assertEquals(difficulty, myFieldDifficulty, "The difficulty of the field does not equal the input");
-    }
     @AfterAll
     static void afterAll() {
         myField = null;
